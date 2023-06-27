@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box; 
+    /* margin:0; */ 
+    background-color: #95e1ff;
+    /* background-color: #EFFFFC; */
+}
+
+.container { 
+    display: block;
+    text-align: center;  
+    margin:0 auto;  
+    min-height: 100vh;
+}
+
+.welcome_title { 
+    /* color:#1ABC9C; */
+    color:#00b7ff;
+    margin-bottom:1.7rem; 
+}
+
+.welcome_button {
+    background-color: #00b7ff;
+    color:#fff;
+    padding:1rem;
+    text-decoration: none;
+    width: 0rem;
+    border-radius: 0.7rem;
+}
+.welcome_button:hover {
+    transition: 0.5s;
+    background-color: #0091ca; 
+    box-shadow: 5px 5px 5px 5px #ffffff;
+}

@@ -1,0 +1,45 @@
+.card {
+    background-color: #fff;
+    padding:0.1rem 1rem 0.4rem 1rem;
+    border-radius: 1rem; 
+    max-width: 90%; 
+    margin: 1.5rem auto; 
+} 
+.reader_title { 
+    background-color: #fff; 
+    color:#00b7ff;
+    font-size: 1.6rem; 
+    margin-bottom: 1.9rem;
+}
+.reader_content {
+    background-color: #fff;
+    color: #002230;
+    font-weight: 400; 
+    max-height: 70vh;
+    overflow-y:auto;
+}
+.reader_action { 
+    text-align: center;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.reader_action_button {
+    margin-left: 1.8rem; 
+    border-radius:0.8rem ;
+    text-decoration: none;
+    padding:1rem;
+    color:#fff;
+}
+
+#kutip { 
+    background-color: #00b7ff;
+}
+
+#simpan { 
+    background-color: #F05033;
+}
+
+#kembali { 
+    background-color: #f1970f;
+}
