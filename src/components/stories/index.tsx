@@ -14,7 +14,10 @@ const Stories = (props: any) => {
                     </Link>
                 )
             })}
-        </div>
+            <Link to="/" className={styles.stories_back_button}>
+                <p>Kembali</p>
+            </Link>
+        </div >
     )
 }
 

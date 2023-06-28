@@ -2,20 +2,12 @@ import { Link, useParams } from 'react-router-dom';
 import styles from './reader.module.css';
 import data from "../../utils/constant/data";
 
-interface DataType {
-    id: string;
-    title: string;
-    slug: string;
-    desc: string;
-    content: string | TrustedHTML;
-}
-interface StoryType {
-    story: DataType;
-}
-
 const Reader = () => {
     const { slug } = useParams();
     const story = data.find((story) => story.slug == slug);
+    if (story == undefined) {
+        throw Error("The value is undefined")
+    }
     return (
         <div className={styles.container}>
             <div className={styles.card}>

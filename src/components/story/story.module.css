@@ -2,7 +2,7 @@
     background-color: #fff;
     padding:0.1rem 1rem 0.4rem 1rem;
     border-radius: 0.7rem;
-    border: 1px solid #00b7ff; 
+    /* border: 1px solid #00b7ff;  */
     max-width: 90%; 
     margin: 1.5rem auto;
 }
@@ -20,5 +20,5 @@
 }
 .container:hover { 
     transition: 0.5s; 
-    box-shadow: 5px 5px 10px 5px #ffffff;
+    padding: 0.2rem 1.1rem 0.5rem 1.1rem;
 }

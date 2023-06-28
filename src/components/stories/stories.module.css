@@ -2,9 +2,24 @@
 .stories_title {
     text-align: center;
     color:#00b7ff;
-    font-size: 2.4rem;
+    font-size: 2.7rem;
     font-family:cursive;
 }
 .stories_link {
     text-decoration: none;
 } 
+.stories_back_button {
+    text-decoration: none; 
+}
+.stories_back_button p{
+    max-width: fit-content; 
+    margin-left: 40%;
+    margin-right: 35%; 
+    bottom:0rem;
+    position: absolute; 
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    background-color: #f1970f;
+}
