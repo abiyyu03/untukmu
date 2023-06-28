@@ -13,15 +13,19 @@
     text-align: center; 
 }
 
-.welcome_title { 
+.welcome_title, u { 
     /* color:#1ABC9C; */
     color:#00b7ff;
+    background: -webkit-linear-gradient(#00b7ff, #00e1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom:1.7rem; 
     font-size: 2.3rem;
 }
 
 .welcome_button {
-    background-color: #00b7ff; 
+    /* background-color: #00b7ff;  */
+    background-image: linear-gradient(to right, #00b7ff , #00e1ff);
     color:#fff;
     padding:1rem;
     text-decoration: none; 
@@ -31,7 +35,7 @@
 }
 .welcome_button:hover {
     transition: 0.5s;
-    background-color: #0091ca;  
+    background-image: linear-gradient(to right, #00a0df , #00c3dd);
 }
 
 .footer {
