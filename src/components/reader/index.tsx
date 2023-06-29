@@ -8,6 +8,9 @@ const Reader = () => {
     if (story == undefined) {
         throw Error("The value is undefined")
     }
+    const buttonHandler = () => {
+        return alert('this feature is comming soon');
+    }
     return (
         <div className={styles.container}>
             <div className={styles.card}>
@@ -18,8 +21,8 @@ const Reader = () => {
             </div>
             <div className={styles.reader_action}>
                 <Link id={styles['kembali']} className={styles.reader_action_button} to="/tulisan">Kembali</Link>
-                <Link id={styles['simpan']} className={styles.reader_action_button} to="/">Simpan</Link>
-                <Link id={styles['kutip']} className={styles.reader_action_button} to="/">Kutip</Link>
+                <Link id={styles['simpan']} className={styles.reader_action_button} onClick={buttonHandler} to="#">Simpan</Link>
+                <Link id={styles['kutip']} className={styles.reader_action_button} onClick={buttonHandler} to="#">Kutip</Link>
             </div>
         </div>
     )
