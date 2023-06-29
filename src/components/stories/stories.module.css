@@ -10,6 +10,7 @@
 } 
 .stories_back_button {
     text-decoration: none; 
+    background-color: #f1970f;
 }
 .stories_back_button p{
     max-width: fit-content; 
