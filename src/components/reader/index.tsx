@@ -17,7 +17,7 @@ const Reader = () => {
                 </p>
             </div>
             <div className={styles.reader_action}>
-                <Link id={styles['kembali']} className={styles.reader_action_button} to="/cerita">Kembali</Link>
+                <Link id={styles['kembali']} className={styles.reader_action_button} to="/tulisan">Kembali</Link>
                 <Link id={styles['simpan']} className={styles.reader_action_button} to="/">Simpan</Link>
                 <Link id={styles['kutip']} className={styles.reader_action_button} to="/">Kutip</Link>
             </div>
