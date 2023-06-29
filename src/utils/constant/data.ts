@@ -21,7 +21,20 @@ const data: DataType[] = [
         Semoga Allah menjaga kita agar selalu berada dijalan-Nya.<br /><br />
 
         Bogor, 17 Januari 2022`,
+    },{
+        id: "asda123",
+        title: "Bagiku",
+        slug: "bagiku",
+        desc:"Bagiku sebuah perjalanan adalah ajang ..",
+        content: `Bagiku sebuah perjalanan adalah ajang untuk kita terus bersyukur. Karena setiap waktu dalam perjalanan kita akan bermakna ketika kita berusaha memaknainya. <br/><br/>
+
+        Melihat banyak manusia dengan kesibukannya, dengan pekerjaannya. Pagi, siang, sore, bahkan malam. Entah panas atau hujan. <br/><br/>
+        
+        Mereka sama, tetap manusia yang bisa merasakan lelah, tapi nyatanya mereka tetap berusaha. Ada seorang ayah yang bekerja keras untuk menafkahi keluarganya, ada seorang ibu yang bekerja membawa anaknya, ada anak muda yang sibuk mencari kerja, ada juga yang sibuk pergi pagi pulang malam untuk menuntut ilmu. Semua sama, memiliki kesibukan tersendiri. <br/><br/>
+        
+        Semua sama, merasakan lelah tersendiri. Jadi, apa masih mau menyerah? Bukankah dunia ini memang tempatnya lelah?`,
     }
 ]
+
 
 export default data;
