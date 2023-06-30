@@ -1,5 +1,7 @@
 .container {
     max-width: 648px;
+    margin: auto;
+    align-items: center;
 }
 .stories_title {
     text-align: center;
