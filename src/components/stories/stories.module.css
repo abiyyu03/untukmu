@@ -1,4 +1,6 @@
-
+.container {
+    max-width: 648px;
+}
 .stories_title {
     text-align: center;
     color:#00b7ff;

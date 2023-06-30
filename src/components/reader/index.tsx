@@ -15,9 +15,7 @@ const Reader = () => {
         <div className={styles.container}>
             <div className={styles.card}>
                 <h1 className={styles.reader_title}>{story.title}</h1>
-                <p className={styles.reader_content} dangerouslySetInnerHTML={{ __html: story.content }}>
-                    { }
-                </p>
+                <p className={styles.reader_content} dangerouslySetInnerHTML={{ __html: story.content }}></p>
             </div>
             <div className={styles.reader_action}>
                 <Link id={styles['kembali']} className={styles.reader_action_button} to="/tulisan">Kembali</Link>
