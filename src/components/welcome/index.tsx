@@ -11,7 +11,7 @@ const Welcome = () => {
             </div>
             <footer className={styles.footer}>
                 <p><b>Created by </b>@abiyyucakra03, <b>in React + Typescript</b></p>
-                <p><b>stories by</b> @lvra.ptr_</p>
+                {/* <p><b>stories by</b> @lvra.ptr_</p> */}
             </footer>
         </>
     )
