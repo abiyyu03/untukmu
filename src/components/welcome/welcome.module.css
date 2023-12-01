@@ -19,7 +19,7 @@
     background: -webkit-linear-gradient(#00b7ff, #00e1ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom:1.7rem; 
+    margin-bottom:0; 
     font-size: 2.3rem;
 }
 
@@ -30,9 +30,23 @@
     padding:1rem;
     text-decoration: none; 
     border-radius: 0.7rem;
-    display: inline-block;
-    width: 12rem;
+    display: block;
+    margin:auto;
+    width: 12rem; 
 }
+
+.welcome_desc {
+    max-width:30rem;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 1.5rem; 
+    color:#0091ca;
+}
+
+a { 
+    color:#00b7ff
+}
+
 .welcome_button:hover {
     transition: 0.5s;
     background-image: linear-gradient(to right, #00a0df , #00c3dd);
@@ -41,9 +55,9 @@
 .footer {
     position: absolute;
     text-align: center;
-    width: 98%;
+    width: 99%;
     color: #0091ca;
     line-height: 0.5rem;
-    font-size: 0.8rem;
-    bottom:0;
+    font-size: 0.85rem;
+    bottom:0.8rem;
 }

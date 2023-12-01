@@ -5,13 +5,15 @@ const Welcome = () => {
     return (
         <>
             <div className={styles.container}>
-                <h1 className={styles.welcome_title}>Tulisan Penggugah jiwa, <u>untukmu</u></h1>
-                <Link to="/tulisan" className={styles.welcome_button}>Baca</Link>
-                {/* <Link to="/cerita" className={styles.saved_button}>Saved</Link> */}
+                <h1 className={styles.welcome_title}>Penggugah jiwa, <u>untukmu</u></h1>
+                <p className={styles.welcome_desc} rel="noopener noreferrer">Untukmu yang sedang dirundung duka, lara dan sedih hati.
+                    Aku tak tau seberapa dalam luka dan sakit itu. Tapi, semoga kumpulan tulisan ini menjadi penyemangat dan sedikit mengobati.</p>
+                <Link to="/tulisan" className={styles.welcome_button}>Yuk Baca</Link>
+                {/* <Link to="/cerita" className={styles.saved_button}>Punya kisah ?, yuk share cerita kamu</Link> */}
             </div>
             <footer className={styles.footer}>
-                <p><b>Created by </b>@abiyyucakra03, <b>in React + Typescript</b></p>
-                {/* <p><b>stories by</b> @lvra.ptr_</p> */}
+                <p><b>Initiated by </b><a href="https://github.com/abiyyu03">abiyyu03</a>, <b>using React + Typescript </b></p>
+                <p></p>
             </footer>
         </>
     )

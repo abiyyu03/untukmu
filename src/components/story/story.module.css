@@ -11,7 +11,8 @@
     background-color: #fff; 
     color:#00b7ff;
     font-size: 1.5rem;
-    font-weight: 450;
+    font-weight: 580;
+    margin-bottom:0
 }
 .story_desc {
     background-color: #fff;
@@ -21,4 +22,8 @@
 .container:hover { 
     transition: 0.5s; 
     padding: 0.2rem 1.1rem 0.5rem 1.1rem;
+}
+.story_author { 
+    background-color:#fff;
+    font-size: 0.8rem;
 }
