@@ -3,7 +3,7 @@ import styles from "./welcome.module.css";
 
 const Welcome = () => {
     return (
-        <>
+        <section className={styles.parent_welcome}>
             <div className={styles.container}>
                 <h1 className={styles.welcome_title}>Penggugah jiwa, <u>untukmu</u></h1>
                 <p className={styles.welcome_desc} rel="noopener noreferrer">Untukmu yang sedang dirundung duka, lara dan sedih hati.
@@ -12,10 +12,10 @@ const Welcome = () => {
                 {/* <Link to="/cerita" className={styles.saved_button}>Punya kisah ?, yuk share cerita kamu</Link> */}
             </div>
             <footer className={styles.footer}>
-                <p><b>Initiated by </b><a href="https://github.com/abiyyu03">abiyyu03</a>, <b>using React + Typescript </b></p>
+                <p>Initiated by <a href="https://github.com/abiyyu03">@abiyyu03</a>, using React + Typescript</p>
                 <p></p>
             </footer>
-        </>
+        </section>
     )
 }
 

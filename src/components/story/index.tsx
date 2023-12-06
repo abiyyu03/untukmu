@@ -5,7 +5,7 @@ const Story = (props: any) => {
     return (
         <div className={styles.container}>
             <h1 className={styles.story_title}>{story.title}</h1>
-            <p className={styles.story_author}>Written by : {story.author}</p>
+            <p className={styles.story_author}>Written by <b>{story.author}</b></p>
         </div>
     )
 }
